@@ -1,0 +1,15 @@
+[
+{"developerId":"sven.walther@konghq.com","priority":"Medium","servicePath":"/pet","requestType":"Bug","issueDetails":"Also getting tigers and lions which are clearly not pets"},
+{"developerId":"sven.walther@konghq.com","priority":"High","servicePath":"/store/inventory","requestType":"Feature Request","issueDetails":"Inventory is missing number of elements in store"},
+{"developerId":"sven.walther@konghq.com","priority":"Moderate","servicePath":"/store/order","requestType":"Documentation","issueDetails":"Missing list of accepted credit cards"},
+{"developerId":"sven.walther@konghq.com","priority":"Low","servicePath":"/pet/{petId}","requestType":"Performance","issueDetails":"Make it faster"}
+,
+{"developerId":"sven.walther@konghq.com","priority":"High","servicePath":"/user/login","requestType":"Bug","issueDetails":"Login not possible with my old account"}
+,
+{"developerId":"jerome.guillaume+axa@konghq.com","priority":"Medium","servicePath":"/pet/{petId}","requestType":"Documentation","issueDetails":"Please improve the API documentation"},
+{"developerId":"jerome.guillaume+axa@konghq.com","priority":"Moderate","servicePath":"/pet/findByStatus","requestType":"Documentation","issueDetails":"Documentation issue"},
+{"developerId":"sven.walther@konghq.com","priority":"High","servicePath":"/pet/findByStatus","requestType":"Documentation","issueDetails":"Not all cats are available"},
+{"developerId":"david.macdonald@konghq.com","priority":"High","servicePath":"/pet/{petId}","requestType":"Bug","issueDetails":"Broken"},
+{"developerId":"david.macdonald@konghq.com","priority":"High","servicePath":"/cicd/headers","requestType":"Documentation","issueDetails":"Add more detail to the documentation please!"},
+{"developerId":"david.macdonald@konghq.com","priority":"Medium","servicePath":"/cicd/headers","requestType":"Feature","issueDetails":"Support Post Method"}
+]
