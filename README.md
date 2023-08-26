@@ -16,8 +16,9 @@ The app is a simple PHP script, uses [htmx](https://htmx.org/) for the live sear
 
 ## Limitations
 
-Well - it is extremely limited and just has been built as show case...
-The file for the ticket storage must be writable by the user running the PHP code
+* Well - it is extremely limited and just has been built as show case...
+* The file for the ticket storage must be writable by the user running the PHP code
+* No security at all - during PoC it has been deployed behind a Kong gateway for access control
 
 ## Ideas
 
