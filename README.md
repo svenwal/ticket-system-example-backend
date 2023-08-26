@@ -1,5 +1,7 @@
 # Example ticket system backend
 
+![Screenshot](ticket-system-screenshot.jpeg)
+
 This web based UI simulates listing and searching tickets in a ticketing system. It is meant to be used in combination with the example ticket form having been built for the Konnect Developer Portal during a PoC.
 
 ## Functionality
@@ -26,5 +28,6 @@ If someone wants me to extend the system here are some ideas already in my head 
 * have a commmunication trail on the tickets
 * API for retrieving tickets I have published (in order to be able to display them in the developer portal).
 * Dockerize it
+* Make themable (colors, logo, menu entries, ...)
 
 Just let me know if there is demand - non of the the above features should be hard to implement...
