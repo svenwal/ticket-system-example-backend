@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tocket-frontend
+  annotations:
+    8080.service.kuma.io/protocol: http
+spec:
+  ports:
+  - name: ticket-frontend
+    targetPort: 8080
+    port: 8080
+    protocol: TCP
+    appProtocol: http
+  selector:
+    app: ticket-system
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ticket-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ticket-system
+  template:
+    metadata:
+      labels:
+        app: ticket-system
+    spec:
+      containers:
+        - name: ticket-system
+          image: svenwal/example-ticket-system
+          env:
+            - name: PORTAL_URI
+              value: "https://developer.svenwal.eu"
+          ports:
+            - containerPort: 8080
