@@ -1,6 +1,6 @@
 # Example ticket system backend
 
-![Screenshot](ticket-system-screenshot.jpeg)
+![Screenshot](images/ticket-system-screenshot.jpg)
 
 This web based UI simulates listing and searching tickets in a ticketing system. It is meant to be used in combination with the example ticket form having been built for the Konnect Developer Portal during a PoC.
 
